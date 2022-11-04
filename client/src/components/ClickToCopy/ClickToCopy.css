@@ -1,0 +1,30 @@
+.clickToCopy{
+    padding: 4px 5px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .clickToCopy:hover{
+     background-color: rgba(105, 159, 248, .1);
+}
+
+.clickToCopy div{
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.clickToCopy.clickToCopy-clicked{
+    animation-duration: .7s;
+    animation-name: flash;
+}
+
+@keyframes flash {
+    from {
+      opacity: .5;
+    }
+  
+    to {
+      margin-left: 1;
+    }
+  }

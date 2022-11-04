@@ -1,0 +1,21 @@
+.filtrosGlobales{
+    display: flex;
+    align-items: center;
+}
+
+.filtrosGlobales__filtro{
+    padding: 4px 8px;
+    border-radius: 4px;
+    border: 1px solid rgba(0,0,0,0.1);
+    background-color: rgba(255,255,255, .8);
+    font-size: .8rem;
+    margin-right: 5px;
+}
+
+.filtrosGlobales__filtro select{
+    width: 70px;
+}
+
+.filtrosGlobales__filtro:last-child{
+    margin-right: 0;
+}

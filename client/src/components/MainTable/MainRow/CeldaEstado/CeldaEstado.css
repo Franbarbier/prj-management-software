@@ -1,0 +1,28 @@
+.estado-select{
+    width: 90px;
+    background-color: transparent;
+    border: none;
+    color: #718397;
+    font-size: .85em;
+}
+
+.estado-celda{
+    display: flex;
+    flex-direction: column;
+}
+
+.pendiente-celda{
+    background-color: rgba(186, 198, 227, 0.1);
+}
+
+.foto-celda{
+    background-color: rgba(15, 168, 219, 0.1);
+}
+
+.comprobante-celda, .enviado-celda{
+    background-color: rgba(255, 162, 0, 0.1);
+}
+
+.confirmado-celda, .acreditado-celda, .entregada-celda, .pagado-celda{
+    background-color: rgba(28, 172, 15, 0.1);
+}

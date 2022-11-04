@@ -1,0 +1,6 @@
+.confirm-delete-btns{
+    display: flex;
+    align-items: center;
+    float: right;
+    margin-top: 20px;
+}

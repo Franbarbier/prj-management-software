@@ -1,0 +1,8 @@
+.caja-tabs{
+    display: flex;
+    /* padding-left: 13%; */
+    width: 87%;
+    margin-left: 13%;
+    justify-content: space-between;
+    padding: 2% 0 1.5%;
+}

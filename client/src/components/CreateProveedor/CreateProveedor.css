@@ -1,0 +1,39 @@
+#input-add-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.cp-cuenta{
+    color: var(--azul-oscuro);
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.cp-cuenta-nombre{
+    /* width: 150px; */
+}
+
+.cp-x{
+    height: 12px;
+    width: 12px;
+    border: 1px solid var(--gris1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    margin-left: 10px;
+    transform: translateY(1px);
+    transition: .15s;
+    display: none;
+    cursor: pointer;
+}
+
+.cp-cuenta:hover > .cp-x{
+    display: flex;
+}
+
+#cont-cuentas{
+    margin-bottom: 30px;
+}

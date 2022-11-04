@@ -1,0 +1,40 @@
+.caja-tabs li {
+    text-align: center;
+    animation-delay: inherit;
+    display: flex;
+    align-items: center;
+    width: 33.4%;
+    justify-content: center;
+    font-size: 1.4em;
+    border-bottom: 1px solid var(--gris2);
+    color: var(--gris2);
+    padding: 0.5% 0;
+    cursor: pointer;
+}
+
+/* momentaneo hasta que la clase se ponga con js */
+.tab-active{
+    border-bottom: 3px solid var(--naranja)!important;
+}
+
+.tab-active span{
+    color: var(--azul-oscuro);
+    font-weight: bold;
+}
+
+.tab-active p{
+    color: var(--celeste);
+    font-weight: bold;
+}
+/* se termina momentaneo */
+.active-caja span{
+    color: var(--azul-oscuro);
+    font-weight: bold;
+}
+.active-caja p{
+    color: var(--celeste);
+    font-weight: bold;
+}
+.active-caja{
+    border-bottom: 2px solid var(--naranja)!important;
+}

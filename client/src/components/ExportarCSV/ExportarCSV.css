@@ -1,0 +1,16 @@
+#export-btn{
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    border: none;
+    transition: .3s;
+    cursor: pointer;
+    filter: invert(0.6);
+}
+#export-btn span{
+    font-size: 0.9em;
+    margin-right: 10px;
+}
+#export-btn:hover{
+    filter: invert(0.2);
+}

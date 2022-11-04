@@ -1,0 +1,28 @@
+
+.pagination{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.pagination__innerContainer{
+    display: flex;
+}
+
+.pagination__tab{
+    margin-right: 10px;
+    color: #bbbeca;
+    min-width: 17px;
+    text-align: center;
+}
+
+.pagination__tab:hover{
+    color: #718397;
+    cursor: pointer;
+}
+
+.pagination__tab-active{
+    color: var(--azul-oscuro);
+}

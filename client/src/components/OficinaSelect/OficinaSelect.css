@@ -1,0 +1,23 @@
+.oficinaSelect{
+    display: flex;
+    opacity: .6;
+    color: var(--gris1);
+    transition: .15s;
+    align-items: center;
+}
+
+.oficinaSelect select{
+    background-color: transparent;
+    border: none;
+    color: var(--celeste);
+    font-size: 1em;
+}
+
+.oficinaSelect:hover{
+    opacity: 1;
+}
+
+.oficinaSelect__label{
+    margin-right: 10px;
+    text-transform: uppercase;
+}

@@ -1,0 +1,457 @@
+/* #create-operacion{
+    min-width: 400px;
+    width: fit-content;
+    height: fit-content;
+    background-color: white;
+    border-radius: 15px;
+    padding: 40px;
+    box-sizing: border-box;
+    color: #14213d;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+    align-items: center;
+}
+
+#create-operacion h2{
+    margin-bottom: 50px;
+    width: 100%;
+    text-align: left;
+}
+
+.data-cont{
+    display: flex;
+    flex-direction: column;
+    max-width: 48%;
+    margin-bottom: 20px;
+}
+
+.data-cont label{
+    margin-bottom: 5px;
+    font-size: 0.8em;
+    font-weight: 300;
+    color: #94a2b1;
+}
+
+#create-operacion input, #create-operacion select{
+    background-color: #fbfbfc;
+    border-bottom: 1px solid #ccced7;
+    padding: 4px;
+}
+
+.radio-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.radio-container label{
+    margin-right: 10px;
+    font-size: 1em;
+}
+
+input[type="radio"]:checked+label{ 
+    font-weight: bold; 
+    color: #14213d;
+} 
+
+.multiple-data-cont{
+    display: flex;
+    justify-content: space-between;
+}
+
+#create-operacion textarea{
+    border: none;
+    resize: none;
+    border-bottom: 1px solid gray;
+    width: 100%;
+    background-color: #fbfbfc;
+    height: 50px;
+    padding: 8px;
+    box-sizing: border-box;
+    font-family: ubuntu;
+    font-weight: 300;
+    color: gray;
+}
+
+#create-operacion input:focus, #create-operacion select:focus, #create-operacion textarea:focus{
+    border: 1px solid #14213d;
+}
+
+#create-operacion form{
+    width: 100%!important;
+}
+
+.co-orden{
+    display: flex;
+    align-items: center;
+    border-top: 1px solid #BBBECA;
+    border-bottom: 1px solid #BBBECA;
+    width: 100%;
+    padding: 8px;
+}
+
+.co-orden-tipo{
+    font-size: 0.85em;
+    font-weight: 300;
+    width: 80px;
+}
+
+.co-orden-monto, .co-orden-divisa{
+    width: 80px;
+    margin-right: 20px;
+    margin-bottom: 0;
+}
+
+::placeholder{
+    color: #BBBECA;
+}
+
+.co-x{
+    color: #BBBECA;
+    transition: .2s;
+}
+
+.co-x:hover{
+    color: #14213d;
+    cursor: pointer;
+}
+ */
+ 
+#create-orden{
+    display: block!important;
+    width: 550px;
+}
+ .datos-orden.multiple-data-cont{
+
+ }
+ .datos-orden .multiple-data-cont>div{
+    margin-right: 1%;
+ }
+ /* .datos-orden input{
+    width: 58%;
+ } */
+ .datos-orden #cambio-actual, #cambio-actual{
+     width: 35%;
+ }
+ .datos-orden>div>div{
+     display: flex;
+     align-items: flex-end;
+ }
+
+#ul-formas{
+    max-width: 100%;
+}
+
+/* Row de agregar orden y sus datos */
+#formas-titulo-cont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.forma-entrega{
+    padding: 4%;
+    margin: 4% 0;
+    background: #fafafa;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px 2px #f5f5f5;
+
+}
+.forma-entrega input,.forma-entrega select{
+    font-size: 0.8em;
+    color: #1c1c1c;
+}
+
+.forma-entrega>div {
+    display: flex;
+    align-items: baseline;
+    flex-wrap:wrap ;
+    width: 100%;
+}
+/* .forma-entrega>div>div:first-child{
+    width: 41%;
+} */
+#q-ofi{
+    float: right;
+    width: 32%;
+}
+.selectTipoEntrega{
+    width: 65%;
+}
+.montos-cont{
+    display: flex;
+    justify-content: space-between;
+}
+
+.forma-entrega>div>div {
+    height: -moz-fit-content;
+    height: fit-content;
+    margin-right: 0%;
+}
+.tipo-entrega-ofi{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.montos {
+    position: relative;
+    width: 30%;
+    margin: 9px 0px 7px 0;
+}
+
+.montos span {
+    position: absolute;
+    animation: auto;
+    top: 50%;
+    transform: translateY(-52%);
+    left: 6px;
+    
+    font-size: 0.7em;
+    color: #515151;
+}
+.montos input {
+    margin-bottom: 0px!important;
+    width: 100%;
+    padding-left: 30px!important;
+    box-sizing: border-box;
+}
+.montos input.montos-arsAusd {
+    padding-left: 5.4em!important;
+}
+#usdt-cont{
+    width: 48%!important;
+}
+.montos input.montos-usdt {
+    padding-left: 38px!important;
+}
+
+.montos.conversion{
+    /* width: 33%;
+    justify-self: flex-end;
+    margin: 0 0 0 15%;
+    font-style: italic; */
+}
+.montos.conversion input{
+    /* padding-left: 91px!important;
+    width: calc(100% - 91px);
+    font-style: italic; */
+}
+.forma-entrega aside>div{
+    /* display: flex; */
+    flex-wrap: wrap;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    margin: 3%;
+    margin-left: 0;
+}
+.forma-entrega aside>div{ 
+    display: none;
+}
+
+.if-moto{
+    display: flex;
+}
+.forma-entrega aside>div input, .forma-entrega aside>div select{
+    width: 30%;
+    margin-right: 3%;
+    /* margin: 0.5%!important; */
+}
+
+.deleteForma{
+    width: 24px;
+    filter: invert(0.5);
+    position: absolute;
+    text-align: 0;
+    top: 22px;
+    right: 2%;
+    transform: translateY(-50%);
+    transition: .2s;
+    cursor: pointer;
+}
+.deleteForma:hover{
+    filter: invert(0.2);
+
+}
+
+
+.fecha{
+    display: flex!important;
+    align-items: center;
+    margin-bottom: 13px;
+}
+.fecha input{
+    margin: 0!important;
+    padding: 3px 0!important;
+    display: block;
+}
+.fecha label{
+    font-size: 0.7em;
+    display: block;
+    margin-right: 5px;
+}
+
+.check{
+    margin: 0;
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.queFecha{
+    display: inline-block;
+    height: 19px;
+    margin-bottom: 0;
+    margin-left: 10px;
+    font-size: 1em;
+}
+input[type=checkbox]:checked ~ input{
+    display: none!important;
+}
+.agregarNota-cont {
+    position: absolute;
+    bottom: 1%;
+    right: 1%;
+}
+.agregarNota-cont>div{
+    position: relative;
+}
+.agregarNota-cont>div img{
+    filter: invert(0.7);
+    transition: .2s;
+    cursor: pointer;
+}
+.agregarNota-cont>div img:hover{
+    filter: invert(0.3);
+}
+.agregarNota-cont>div>div{
+    position: relative;
+}
+.agregarNota-cont>div>div:before{
+    content: 'Agregar nota';
+    position: absolute;
+    bottom: 120%;
+    font-size: 0.85em;
+    color: var(--gris2);
+    background-color: white;
+    border: 1px var(--gris2) solid;
+    padding: 3px 4px;
+    border-radius: 3px;
+    transform: translateY(20%);
+    opacity: 0;
+    transition: .2s;
+    visibility: hidden;
+}
+.agregarNota-cont>div>div:hover:before{
+    transform: translateY(0%);
+    opacity: 1;
+    visibility: visible;
+
+}
+
+
+.agregarNota-cont textarea{
+    position: absolute;
+    width: 240px;
+    border: 1px solid gray!important;
+    bottom: 110%;
+    right: 0%;
+    height: 80px!important;
+    width: 18vw!important;
+    z-index: 9999;
+}
+
+.vacioOculto, .dejasteVacio, .notaAgregada{
+    display: none!important;
+}
+.escribiteAlgo{
+    display: block!important;
+
+}
+.notaAgregada ~ div>img{
+    filter: invert(0)!important;
+}
+
+#agregarOrdenBtn{
+        margin: 3% 0px 7%;
+        display: inline-block;
+        background: var(--blanco);
+        padding: 8px 0px;
+        font-size: 0.8em;
+        border-radius: 3px;
+        cursor: pointer;
+        border: 1px solid var(--gris1);
+        transition: .2s;
+        font-size: 0.8em;
+        width: 100%;
+        text-align: center;
+}
+#agregarOrdenBtn:hover{
+    background-color: var(--gris2);
+}
+
+.tiene-que-recibir{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.recibe-usd{
+    margin-bottom: 10px;
+    margin-right: 7px;
+}
+#recibe{
+    width: 40%;
+    width: 69.5%;
+}
+#montoEntrega{
+    font-size: 0.7em;
+    color: #94a2b1;
+    font-style: italic;
+    padding: 4px 6px;
+    border-radius: 2px;
+}
+
+.entregamas{
+    color:#a82222!important;
+    background-color: #f1c4c4;
+    border: 1px solid #a82222;
+}
+.entregamas:after{
+    content: 'de más';
+}
+.entregamenos{
+    color:#628a3b!important;
+    background-color: #def7c4;
+    border: 1px solid #628a3b;
+}
+.entregamenos:after{
+    content: 'de menos';
+}
+.label-cometa{
+    font-size: 0.9em;
+    margin-right: -20px;
+    z-index: 99;
+    margin-left: 9px;
+    padding-bottom: 4px;
+    position: relative;
+}
+.prj-cometa, .porcentaje-cometa-cash{
+    padding-left: 25px!important;
+}
+.label-cometa.fijo{
+    font-size: 0.9em;
+    margin-right: -35px;
+    z-index: 99;
+    margin-left: 9px;
+
+}
+
+.fijo-cometa-cash{
+    padding-left: 38px!important;
+}
+

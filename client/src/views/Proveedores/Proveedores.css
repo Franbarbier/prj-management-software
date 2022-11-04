@@ -1,0 +1,90 @@
+#proveedores-view{
+    padding-top: 3%;
+}
+#add-proveedor{
+    padding-bottom: 3px;
+}
+#add-proveedor>div{
+    border: 2px solid var(--gris1);
+    color: var(--gris1);
+    border-radius: 50px;
+    width: 1.5em;
+    height: 1.5em;
+    cursor: pointer;
+    position: relative;
+    transition: .2s;
+}
+#add-proveedor>div:hover{
+    color: #272727;
+    border-color: #272727;
+
+}
+#add-proveedor>div:before{
+    content: 'Agregar proveedor';
+    position: absolute;
+    bottom: 120%;
+    font-size: 0.85em;
+    color: var(--gris2);
+    background-color: white;
+    border: 1px var(--gris2) solid;
+    padding: 3px 4px;
+    border-radius: 3px;
+    transform: translateY(20%);
+    opacity: 0;
+    transition: .2s;
+    visibility: hidden;
+}
+#add-proveedor>div:hover:before{
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0%);
+}
+
+#add-proveedor>div>p{
+    font-weight: 400;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -52.5%);
+    font-size: 1em;
+}
+#proveedores-view #row-superior>h1{
+    display: none;
+}
+#div-primer{
+    display: flex;
+    align-items: center;
+    margin: 5% 0 8px 0;
+    padding-left: 60px;
+    width: calc(100% - 90px);
+    justify-content: space-between;
+}
+#conters-cont{
+    display: flex;
+    align-items: center;
+}
+
+#conters-cont>div:last-child{
+    display: flex;
+    align-items: center;
+    min-width: 80%;
+    margin-left: 5%;
+}
+#conters-cont>div:last-child>div{
+    padding: 3% 0;
+    display: flex;
+    justify-content: space-between;
+}
+#conters-cont>div:last-child>div h5{
+    font-size: 1em;
+    color: var(--gris1);
+    font-weight: 400;
+}
+#conters-cont>div:last-child>div p{    
+    font-size: 1em;
+}
+#conters-cont hr{
+    background: var(--gris3);
+    height: 1.3em;
+    margin: 0 3.5%
+}

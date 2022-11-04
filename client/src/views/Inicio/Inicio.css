@@ -1,0 +1,13 @@
+/* Por ahora uso este padding para el box-data de inicio pero la idea es que luego utilice un padding normalizado que sea el mismo que usa la seccion principal de la vista */
+#inicio-view .box-data{
+    padding-right: 10%;
+    padding-left: 20%;
+}
+
+#inicio-view .avatar-container{
+    margin-bottom: 30px;
+}
+
+#inicio-view .tarjeta-data{
+    width: fit-content;
+}

@@ -1,0 +1,14 @@
+.counter-caja{
+    display: flex;
+    align-items: center;
+}
+.counter-caja h5{
+    margin-right: 10px;
+    color: var(--azul-oscuro);
+    font-size: 1em;
+}
+.counter-caja p {
+    color: var(--gris1);
+    font-size: 1em;
+
+}

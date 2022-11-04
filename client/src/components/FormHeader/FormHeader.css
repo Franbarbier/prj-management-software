@@ -1,0 +1,19 @@
+
+.formHeader{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.formHeader > h2{
+    margin-bottom: 0!important;
+    width: auto!important;
+}
+  
+.formHeader__editarBtn{
+    cursor: pointer;
+    font-size: .8rem;
+    text-decoration: underline;
+}

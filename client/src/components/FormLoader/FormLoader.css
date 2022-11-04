@@ -1,0 +1,53 @@
+/* CSS DE LA LOADING BAR */
+.form-loader{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+  }
+
+  #loading-bar {
+    height: 4px;
+    background: #ccdfff;
+    overflow: hidden;
+}
+
+#loading-bar div:before {
+    content:"";
+    position:absolute;
+    top:0px;
+    left:0px;
+    bottom:0px;
+    background:#699ff8;
+    animation:box-1 2100ms cubic-bezier(0.65,0.81,0.73,0.4) infinite;
+  }
+  #loading-bar div:after {
+    content:"";
+    position:absolute;
+    top:0px;
+    left:0px;
+    bottom:0px;
+    background:#699ff8;
+    animation:box-2 2100ms cubic-bezier(0.16,0.84,0.44,1) infinite;
+    animation-delay:1150ms;
+  }
+  @keyframes box-1 {
+    0% {
+      left:-35%;
+      right:100%;
+    }
+    60%,100% {
+      left:100%;
+      right:-90%;
+    }
+  }
+  @keyframes box-2 {
+    0% {
+      left:-200%;
+      right:100%;
+    }
+    60%,100% {
+      left:107%;
+      right:-8%;
+    }
+  }

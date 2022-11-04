@@ -1,0 +1,238 @@
+#main-table-area{
+    width: 100%;
+    position: relative;
+    box-sizing: border-box;
+}
+
+#row-superior{
+    display: flex;
+    align-items: center;
+}
+
+#filtros{
+    display: flex;
+    background-color: transparent;
+    border: none;
+    color: #BBBECA;
+    margin-right: 50px;
+    font-weight: 300;
+    font-size: 0.8em;
+    margin-bottom: 7px;
+}
+
+#filtros select, #filtros input{
+    font-weight: 300;
+}
+
+#filtros select, .filtro{
+    border-bottom: 1px solid #BBBECA!important;
+}
+
+#f-tipo{
+    width: 100px;
+}
+
+.filtro{
+    margin-right: 25px;
+}
+
+h1{
+    margin-right: 35px;
+    font-weight: 400;
+    margin-left: 54px;
+    font-size: 1.3em;
+    margin-bottom: 8px;
+    color: var(--azul-oscuro); 
+}
+
+#table{
+    border-radius: 20px;
+    box-sizing: border-box;
+    border: 0.5px solid #BBBECA;
+    box-shadow: 0px 8px 15px rgba(20, 33, 61, 0.15);
+}
+
+#table-cont{
+    position: relative;
+    border-radius: 20px;
+    padding-bottom: 2px;
+}
+
+#ths{
+    padding: 10px 20px 10px 35px;
+    padding-bottom: 8px;
+    font-weight: 300!important;
+    display: flex;
+    border-bottom: 2px solid #d9d9d9;
+    background-color: white;
+    color: #BBBECA;
+    text-align: left;
+    font-size: .9em!important;
+    overflow: hidden;
+    border-radius: 20px 20px 0 0;
+}
+
+#main-table-area th{
+    font-weight: 300!important;
+}
+
+
+.cell{
+    width: 70px;
+    overflow: hidden;
+    margin-right: 20px;
+    white-space: nowrap;
+    font-size: .8em;
+    text-overflow: ellipsis;
+}
+
+/* Tamaños para la main table */
+.size2{
+    font-size: 0.85em;
+}
+
+.no-agregar .btn-cargar { display:none!important }
+.size2 .cell{
+    width: 80px!important;
+}
+
+.btn-cargar{
+    background-color: #49C39D;
+    width: fit-content;
+    height: 40px;
+    width: 40px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    font-size: 1.8em;
+    position: absolute;
+    right: 0;
+    transform: translate(50%, -50%);
+    z-index: 3;
+    cursor: pointer;
+    transition: .15s ease-in-out;
+    box-shadow: 0px 4px 4px rgb(20 33 61 / 15%);
+}
+
+.btn-cargar>div{
+    transform: translateY(-1px);
+}
+
+.btn-cargar:hover{
+    background-color: #3eb590;
+    transform: translate(50%, -50%) scale(1.05);
+}
+
+#filtros select{
+    background-color: transparent;
+    border: none;
+    color: #BBBECA;
+}
+
+#searchbar-cont{
+    display: flex;
+    align-items: center;
+
+    border: 1px solid #BBBECA;
+    padding: 4px 8px;
+    border-radius: 25px;
+}
+
+#searchbar-cont input{
+    background-color: transparent;
+    border: none;
+    width: 120px;
+}
+
+#searchbar-cont img{
+    margin-right: 8px;
+    transform: translateY(1px);
+}
+
+#f-searchbar input{
+
+}
+
+#seleccionar-periodo{
+    display: flex;
+    align-items: center;
+    transition: .15s;
+    position: relative;
+    justify-content: center;
+}
+
+#seleccionar-periodo:hover{
+    cursor: pointer;
+}
+
+#filtrar-por-fecha{
+    position: absolute;
+    top: 29px;
+    z-index: 1;
+    padding: 10px 12px;
+    border-radius: 4px;
+    box-shadow: 2px 4px 9px -1px rgb(0 0 0 / 25%);
+    background-color: rgba(252, 251, 252, 0.7);
+    backdrop-filter: blur(1px);
+}
+
+#filtrar-por-fecha label{
+    font-size: 0.8em;
+}
+
+#filtrar-por-fecha input{
+    height: 20px;
+    margin-top: 4px;
+}
+
+#filtrar-por-fecha input:first-of-type{
+    margin-bottom: 10px;
+}
+
+::-webkit-datetime-edit { padding: 1em; font-weight: 300; font-size: 0.8em; }
+
+
+#filtrar-por-fecha>div:last-child input{
+    margin-right: 0!important;
+}
+
+::placeholder{
+    font-weight: 300;
+}
+
+.showing-filtro-fecha{
+    color: #8e929e;
+    transition: .15s;
+}
+
+.bulk-actions{
+    font-size: .75em;
+    font-weight: 300;
+    align-items: center;
+    display: flex;
+}
+
+.ba-counter{
+    margin-right: 5px;
+}
+
+.ba-action{
+    padding: 3px 8px;
+    border-radius: 3px;
+}
+
+.ba-action:hover{
+    background-color: rgba(0,0,0,.025);
+    cursor: pointer;
+}
+
+.filtroOrdenRecibo{
+    display: flex;
+    align-items: center;
+}
+
+.filtroOrdenRecibo input{
+    margin-right: 5px;
+}

@@ -1,0 +1,48 @@
+
+.cambios-box-data{
+    padding: 0;
+    /* background-image: linear-gradient(0deg, #ececec -9%, transparent 47%); */
+    padding-top: 3%;
+    display: flex;
+    width: 77%;
+
+    padding-right: 6%;
+}
+#cambios-view .cambios-box-data .tarjeta-data{
+    width: fit-content;
+    transform: translateY(11%);
+}
+#cambios-view .cambios-box-data .tarjeta-data h4{
+    margin-bottom: none!important;
+}
+#cambios-view .cambios-box-data{
+    display: flex;
+    justify-content: space-around;
+}
+
+#tables-cajas-cont{
+    width: 79.5%;
+    margin-left: 16%;
+    display: flex;
+    justify-content: space-around;
+}
+#tables-cajas-cont>article{
+    width: 47%;
+}
+#tables-cajas-cont>article .counter-caja{
+    padding-left: 60px;
+}
+#tables-cajas-cont h1{
+    display: none;
+}
+#tables-cajas-cont .counter-caja{
+    margin-bottom: 1.5%;
+}
+.counter-cambios{
+    align-self: center;
+    font-size: 11px;
+    transform: translateY(11%);
+}
+.counter-cambios hr{
+    margin: 5% 0;
+}

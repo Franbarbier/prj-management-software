@@ -1,0 +1,22 @@
+#ordenes-view-contCol{
+    display: flex;
+    justify-content: space-between;
+}
+#ordenes-view-contCol>div:first-child{
+    width: 52%;
+}
+#ordenes-view-contCol>div:last-child{
+    width: 38%;
+}
+#ordenes-view-contCol .tarjeta-data>h4{
+    margin-bottom: 5%;
+}
+#ordenes-view-contCol #table,#ordenes-view-contCol  #table-cont{
+    width: 100%!important;
+}
+#ordenes-view-contCol>div>div, #ordenes-view-contCol>div>main {
+    margin-bottom: 11%;
+}
+#ordenes-view-contCol .tarjeta-data{
+    width: calc(100% - 92px);
+}

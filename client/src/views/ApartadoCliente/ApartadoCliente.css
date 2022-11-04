@@ -1,0 +1,14 @@
+.saldoClienteHeader h1{
+    font-size: 2rem;
+    margin-left: 0;
+}
+
+.tablasSaldoCliente{
+    display: flex;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.tablasSaldoCliente article:first-child{
+    margin-right: 80px;
+}

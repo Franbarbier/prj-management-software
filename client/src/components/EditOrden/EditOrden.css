@@ -1,0 +1,30 @@
+.forma-entrega.Entregada{
+    z-index: 1;
+}
+.Entregada{
+    opacity: 0.5;
+    position: relative;
+}
+.Entregada::after{
+    content: 'Entregada';
+    position: absolute;
+    left: -53px;
+    top: 50%;
+    text-align: center;
+    transform: rotate(-90deg) translateX(12%);
+}
+.Entregada::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    background-color: transparent;
+    height: 100%;
+    z-index: 3;
+    top: 0;
+    left: 0;
+    
+}
+
+#edit-orden .cont-btns{
+    align-self: flex-end;
+}

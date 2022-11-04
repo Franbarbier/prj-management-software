@@ -1,0 +1,113 @@
+.config-container{
+    padding: 20px;
+    border: 1px solid var(--outline);
+    border-radius: 8px;
+    margin-bottom: 10px;
+    /* background-color: var(--gris2); */
+}
+
+.config-label{
+    margin-bottom: 10px;
+}
+
+.cats-container{
+    display: flex;
+    font-size: .8em;
+    flex-wrap: wrap;
+}
+
+.cat{
+    font-weight: 300;
+    margin-right: 10px;
+    background-color: rgba(113, 131, 151, 0.075);
+    padding: 3px 6px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    margin: 0 4px 4px 0;
+    border: 1px solid transparent;
+    /* color: var(--gris2); */
+}
+
+.cat:hover{
+    border: 1px solid var(--gris2);
+}
+
+.r-tag{
+    margin-left: 10px;
+    font-size: .7em;
+    height: 10px;
+    width: 10px;
+    background-color: rgba(255,255,255, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    color: rgba(0,0,0,0.7);
+    cursor: pointer;
+}
+
+.r-tag:hover{
+    background-color: rgba(255,255,255, 0.4);
+}
+
+.add-new{
+    font-size: 0.7em;
+    margin-top: 5px;
+    color: rgba(0,0,0,0.25);
+    text-decoration: underline;
+}
+
+.add-new:hover{
+    color: rgba(0,0,0,0.4);
+    cursor: pointer;
+}
+
+.add-cat-form{
+    display: flex;
+    height: 18px;
+    margin: 10px 0;
+}
+
+#config-view .btn-create{
+    font-size: .7em;
+    padding: 0 10px;
+    height: 18px;
+    border-radius: 3px;
+    margin-left: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.config-container select{
+    margin-top: 10px;
+}
+
+.cr-cambio{
+    font-size: .8em;
+    margin-bottom: 10px;
+}
+
+.cr-cambio>div{
+    display: flex;
+    padding: 4px 10px;
+    width: fit-content;
+    border-radius: 3px;
+}
+
+.cr-cambio>div:hover{
+    background-color: rgba(0,0,0,.025);
+}
+
+.cr-celda{
+    margin-right: 50px;
+}
+
+.cr-celda:last-child{
+    margin-right: 0;
+}
+
+.cr-cambio{
+    
+}

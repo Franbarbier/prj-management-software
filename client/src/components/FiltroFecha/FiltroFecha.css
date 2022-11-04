@@ -1,0 +1,30 @@
+.filtroFecha{
+}
+
+.filtroFecha__dropdown{
+    position: absolute;
+    z-index: 2;
+    box-shadow: 2px 4px 9px -1px rgb(0 0 0 / 25%);
+    background-color: rgba(252, 251, 252, 0.7);
+    backdrop-filter: blur(1px);
+    padding: 15px;
+    border-radius: 6px;
+    width: max-content;
+}
+
+.filtroFecha__dropdown input{
+    height: 20px;
+    border: 1px solid rgba(0,0,0,0.1);
+}
+
+.filtroFecha__dropdown input:focus{
+    border-color: rgba(0,0,0,0.5);
+}
+
+.filtroFecha__field{
+    margin-bottom: 10px;
+}
+
+.filtroFecha__dateLabel{
+    margin-bottom: 4px;
+}

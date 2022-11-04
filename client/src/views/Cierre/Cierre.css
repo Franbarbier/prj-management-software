@@ -1,0 +1,30 @@
+.cierre-cols{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.cc-col{
+    /* height: 100px; */
+    width: 100px;
+}
+
+.cc-col:nth-child(1){
+    width: 48%;
+}
+
+.cc-col:nth-child(2){
+    width: 48%;
+}
+.cc-col:nth-child(3){
+    width: 22.5%;
+}
+
+.cierre-periodos{
+    margin-bottom: 30px;
+}
+
+#cierre-view #periodo{
+    border-bottom: none!important;
+}
+

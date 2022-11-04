@@ -1,0 +1,242 @@
+
+
+.main-row{
+    padding: 8px 20px 8px 35px;
+    color: #718397;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    border-bottom: 1px solid #d9d9d9;
+    cursor: pointer;
+    position: relative;
+    margin-bottom: 2px;
+    background-color: white;
+}
+
+.main-row:last-of-type{
+    margin-bottom: 0;
+}
+
+.main-row__corroborar{
+    border: 1px solid #FFA000;
+}
+
+.main-row:hover{
+    background-color: #FBFBFC;
+}
+
+.clicked-row{
+    background-color: #f5f5f5!important;
+}
+
+.bold{
+    color: #14213D;
+    font-weight: 400;
+}
+
+.egreso{
+    color: var(--rojo);
+}
+
+.divisa{
+    font-weight: 300;
+    color: #718397;
+}
+
+.pendiente{
+    color: #bac6e3!important;
+    font-weight: 400;
+}
+
+.enviado .ei-value{
+    color: var(--naranja)!important;
+}
+
+.tds-ordenes .pendiente{
+    color: #DF5F67;
+    font-weight: 400;
+}
+
+.nombre_borrador{
+    color: #bac6e3;
+}
+
+.cliente_is_proveedor{
+    color: #699FF8;
+}
+
+.main-row:hover  .action img{
+    opacity: 1;
+}
+
+.action img{
+    height: 15px;
+    transition: .15s;
+    opacity: 0;
+    margin-right: 15px;
+}
+
+.faved{
+    /* border: 1px solid yellow; */
+    background-color: #fffbf5;
+}
+
+.faved.clicked-row{
+    background-color: #faf3e8!important;
+}
+
+.faved .fav img{
+    opacity: 1!important;
+}
+
+.has-note .note img{
+    opacity: 0.9!important;
+}
+.bulkSelect{
+    position: absolute;
+    left: 15px;
+    opacity: 0;
+    transition: .075s;
+}
+.main-row:hover .bulkSelect{
+    opacity: 1;
+}
+.bulkSelect>div{
+    width: 8px;
+    /* padding: 2px; */
+    height: 8px;
+    background-color:  var(--gris3);
+    border: 1px solid var(--gris1);
+    border-radius: 50%;
+    box-shadow: 0px 2px 7px -1px #b9b9b9;
+    position: relative;
+}
+
+.bulkSelect>div>div{
+    width: 6px;
+    height: 6px;
+    background-color: var(--gris2);
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    transition: .2s;
+    opacity: 0;
+}
+.bulkSelect>div:hover div{
+    opacity: 1;
+}
+.bulkSelected, .bulkSelected>div>div{
+    opacity: 1;
+}
+.bulkSelected>div>div{
+    background-color: var(--azul-oscuro);
+}
+div.rowSelected{
+    background-color: var(--gris3)!important;
+}
+
+.note{
+    position: relative;
+}
+
+.note:hover .nota-modal{
+    display: block;
+}
+
+.nota-modal{
+    position: absolute;
+    width: fit-content;
+    max-width: 200px;
+    top: -8px;
+    right: 40px;
+
+    box-sizing: border-box;
+    overflow-wrap: break-word;
+    white-space: normal;
+    z-index: 100;
+    
+
+    padding: 10px 20px;
+    /* background-color: rgba(252, 251, 252, 0.7); */
+    background-color: rgba(255, 251, 245, 0.7);
+    backdrop-filter: blur(1px);
+    border-radius: 6px;
+    border: 1px solid #BBBECA;
+
+    font-size: 0.8em;
+    font-weight: 300;
+    color: #718397;
+    display: none;
+
+}
+
+
+.actions-cell{
+    overflow: visible!important;
+    right: 20px;
+    position: absolute;
+}
+
+
+.nota-modal>div{
+    
+}
+
+.main-row:last-child{
+    border-radius: 0 0 20px 20px;
+}
+
+.ARS::before{
+    content: 'ARS';
+    font-size: 0.9em;
+    background: #f0f0f0;
+    color: #718397;
+    padding: 0.05em 0.2em;
+    border-radius: 2px;
+} 
+.USD::before{
+    content: 'USD';
+    font-size: 0.9em;
+    background: #f0f0f0;
+    color: #718397;
+    padding: 0.05em 0.2em;
+    border-radius: 2px; 
+}
+.USDT::before{
+    content: 'USDT';
+    font-size: 0.9em;
+    background: #f0f0f0;
+    color: #718397;
+    padding: 0.05em 0.2em;
+    border-radius: 2px; 
+}
+
+.corroborar{
+    position: absolute;
+    right: -5px;
+    top: -5px;
+    height: 14px;
+    width: 14px;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: .45em;
+    font-weight: bold;
+    background-color: #FFA000;
+    box-shadow: 0px 4px 4px rgb(20 33 61 / 15%);
+}
+
+.tipo-operacion{
+    border-left: 3px solid #49C39D;
+}
+.tipo-orden{
+    border-left: 3px solid #699FF8;
+}
+.tipo_recibo .ars, .tipo_recibo .usd{
+    color: #49C39D;
+}

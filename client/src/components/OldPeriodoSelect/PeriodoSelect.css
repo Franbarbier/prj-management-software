@@ -1,0 +1,40 @@
+
+#periodo{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: flex-end;
+    border-bottom: 1px solid #BBBECA!important;
+    /* font-size: .9em; */
+}
+
+#periodo-options{
+    position: absolute;
+    top: 12px;
+    z-index: 2;
+    /* background-color: blue; */
+    padding-top: 10px;
+    
+}
+
+#periodo-options-container{
+    box-shadow: 2px 4px 9px -1px rgb(0 0 0 / 25%);
+    background-color: rgba(252, 251, 252, 0.7);
+    backdrop-filter: blur(1px);
+    padding: 15px;
+    border-radius: 6px;
+    width: max-content;
+}
+
+.periodo-tab{
+    margin-bottom: 5px;
+}
+
+.periodo-tab:hover{
+    color: var(--azul-oscuro);
+    cursor: pointer;
+}
+
+.active-periodo{
+    z-index: 3;
+}

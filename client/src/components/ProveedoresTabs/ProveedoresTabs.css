@@ -1,0 +1,13 @@
+.tabs-cont{
+    border-bottom: 1px solid var(--gris2);
+    padding: 0 16% 0 19%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.tabs-cont ul{
+    display: flex;
+    align-items: flex-end;
+    width: 90%;
+    overflow-x: auto;
+}

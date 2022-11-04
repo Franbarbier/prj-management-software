@@ -1,0 +1,28 @@
+.avatar-container{
+    display: flex;
+    align-items: center;
+}
+
+.av-img{
+    /* height: 60px;
+    width: 60px;
+    background-color: blue; */
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.av-mainText{
+    font-weight: bolder;
+    font-size: 1.75em;
+    color: var(--azul-oscuro);
+}
+
+.av-info{
+    font-family: New York Extra Large;
+}
+
+.av-secondaryText{
+    font-size: 1.2em;
+    color: var(--gris1);
+    font-weight: bold;
+}

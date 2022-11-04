@@ -1,0 +1,55 @@
+.form-cargar.liquidar{
+    width: 500px;
+}
+
+.liquidar__transferencias *{
+    box-sizing: border-box;
+}
+
+.liquidar__transferencias{
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.liquidar__transferencia{
+    display: flex;
+    background-color: rgba(0,0,0,0.025);
+    padding: 8px 15px;
+    border-radius: 5px;
+    width: 100%;
+    border: 1px solid rgba(0,0,0,0.05);
+    margin-bottom: 5px;
+    align-items: center;
+}
+
+.liquidar__transferenciaCampos{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.liquidar__transferenciaCampos input{
+    margin-bottom: 0!important;
+}
+
+.liquidar__transferenciaQuitar{
+    font-size: .6em;
+    height: 15px;
+    width: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0,0.05);
+    border-radius: 3px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.liquidar__transferenciaImporte span{
+    margin-right: 4px;
+    opacity: .5;
+}
+
+.liquidar__transferenciaCampos input{
+    max-width: 100%;
+}
